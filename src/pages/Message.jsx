@@ -31,7 +31,7 @@ export function Message() {
       >
         <div className="border-b gap-2 font-flex flex-col items-start justify-items-start">
           <h3 className="font-bold"> Name : </h3>
-          <p> {msg.user} </p>
+          <p> {msg.username} </p>
         </div>
         <div className="border-b gap-2 flex flex-col items-start justify-items-start">
           <h3 className="font-bold "> Message : </h3>
